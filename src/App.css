@@ -1,38 +1,162 @@
-.App {
+.title{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.cards {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cardInside {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 400px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+
+.images {
+  width: 400px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+a {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  
   }
-  to {
-    transform: rotate(360deg);
+
+  header{
+    background-color: #3ec4fc  ;
+    
   }
-}
+
+  .topNav{
+    width: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    object-fit: 2;
+
+
+  }
+
+  .imageBeer{
+   
+    height: 300px;
+  }
+
+
+  .beersCard{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .singleBeer{
+    width: 100%;
+
+  }
+
+
+  @media screen and (min-width: 700px) {
+    .singleBeer{
+      width: 30%;
+    }
+  }
+
+  .oneBeer{
+    text-align: center;
+    
+  }
+
+  .newBeerInfo{
+    display: flex;
+    justify-content: center;
+  }
+
+  input{
+    width: 400px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    height: 30px;
+  }
+
+  .newBeer{
+    background-color: #3ec4fc;
+    border: none;
+    width: 405px;
+    height: 36px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+
+  }
+  textarea{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+  }
+
+  .beerDescription{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  
+ .beerName{
+  font-size: 25px;
+  margin-right: 200px;
+  margin-top: 42px;
+  
+ }
+
+ .beerAttenuation{
+  font-size: 25px;
+  margin-left: 20px;
+  color:lightgray
+ }
+
+  .beerFirstLine{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+  }
+
+  .beerSecondLine{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .beerTagline{
+    font-size: 20px;
+    margin-right: 100px;
+    color: gray;
+  }
+
+  .beerBrewed{
+    margin-left: 20px;
+    margin-top: 24px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .beerContributed{
+   font-size: 15px; 
+   color: gray;
+   margin-right: 210px;
+  }
+
+  
+
+
